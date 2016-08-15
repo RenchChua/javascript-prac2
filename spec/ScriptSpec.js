@@ -82,7 +82,7 @@ describe("write a fizzBuzz function", function () {
   });
 
   it("has a function returns all fizzbuzz below 31 ", function () {
-    expect( fizzBuzz(30) ).toEqual(["fizz", "buzz", "fizz", "fizz", "buzz", "fizz", "fizzbuzz", "fizz", "buzz", "fizz", "fizz", "buzz", "fizz", "fizzbuzz"]) ;
+    expect( fizzBuzz(31) ).toEqual(["fizz", "buzz", "fizz", "fizz", "buzz", "fizz", "fizzbuzz", "fizz", "buzz", "fizz", "fizz", "buzz", "fizz", "fizzbuzz"]) ;
   });
 });
 
